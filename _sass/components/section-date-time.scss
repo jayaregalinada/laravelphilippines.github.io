@@ -1,0 +1,103 @@
+/*
+/* Date time section
+ */
+
+.date-time {
+  text-align: center;
+  position: relative;
+
+  padding: 0;
+
+  margin-bottom: 3em;
+}
+
+.date-time .in {
+  position: relative;
+}
+
+.date-time .in:before,
+.date-time .in:after {
+  content: '';
+  display: block;
+  height: 1px;
+
+  position: absolute;
+  top: 58px;
+
+  /* border-bottom: solid 1px #ddd; */
+}
+
+.date-time .in:before {
+  left: 0;
+  right: 60%;
+}
+
+.date-time .in:after {
+  right: 0;
+  left: 60%;
+}
+
+/* ---------------------------------------------------------------------------- */
+/* The date-time circle */
+
+.date-time-item {
+  $size: 140px;
+
+  & {
+    position: relative;
+    z-index: 1;
+
+    display: inline-block;
+
+    width: $size;
+    height: $size;
+    border-radius: 50%;
+    padding: 14px 10px 10px 10px;
+    text-align: center;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    border: solid 1px rgba($green, 0.5);
+  }
+
+  &[disabled],
+  &:disabled {
+    cursor: not-allowed;
+  }
+
+  .date {
+    display: block;
+    text-align: center;
+    font-size: 17pt;
+    border-bottom: solid 1px rgba($green, 0.5);
+    transition: border-color 200ms linear;
+
+    line-height: ($size / 2 - 14px - 1);
+    font-weight: bold;
+
+    color: #fff;
+  }
+
+  .time {
+    text-align: center;
+    display: block;
+    font-size: 14pt;
+    letter-spacing: 4px;
+    text-indent: 3px;
+
+    line-height: ($size / 2 - 14px);
+
+    color: #fff;
+  }
+
+  &:not([disabled]):hover {
+    text-decoration: none;
+    background: $green;
+
+    .date {
+      border-bottom: solid 1px lighten($green, 10%);
+    }
+  }
+}

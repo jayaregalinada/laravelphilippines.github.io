@@ -1,0 +1,30 @@
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+exclude:
+  - ./_/
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+  - README.md
+  - node_modules
+  - vendor
+
+contact:
+  email: hi@ricostacruz.com
+
+permalink: "/p/:title.html"
+
+# Google analytics
+analytics:
+  hostname: manilajs.com
+  id: UA-38979948-1
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "article"

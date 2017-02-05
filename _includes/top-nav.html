@@ -1,0 +1,50 @@
+<nav class='top-nav-bg'>
+  <div class='logo-box'>
+    <span class='logo'>Manila.js</span>
+    &mdash; Philippine JavaScript community
+  </div>
+
+  {% if page.registration.state == "open" %}
+  <div class='right'>
+    <span class='hint'>Join the meetup!</span>
+  </div>
+  {% endif %}
+
+  {% if page.registration.state == "closed" %}
+  <div class='right'>
+    <span class='hint'>Check back next month!</span>
+  </div>
+  {% endif %}
+
+  {% if page.registration.state == "announce" %}
+  <div class='right'>
+    <span class='hint'>Check back soon!</span>
+  </div>
+  {% endif %}
+
+  {% if page.registration.state == "over" %}
+  <div class='right'>
+    <span class='hint'>Check back soon!</span>
+  </div>
+  {% endif %}
+</nav>
+
+<nav class='top-nav'>
+  <div class='right'>
+    {% if page.registration.state == "open" %}
+      <a href='{{ page.registration.signup }}' class='btn -top -enabled'>Join in</a>
+    {% endif %}
+
+    {% if page.registration.state == "closed" %}
+      <a href='#signup' class='btn -top -disabled'>Slots full</a>
+    {% endif %}
+
+    {% if page.registration.state == "announce" %}
+      <a href='#signup' class='btn -top -disabled'>Soon to open</a>
+    {% endif %}
+
+    {% if page.registration.state == "over" %}
+      <a href='#signup' class='btn -top -disabled'>Event is over</a>
+    {% endif %}
+  </div>
+</nav>

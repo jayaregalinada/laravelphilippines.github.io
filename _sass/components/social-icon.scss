@@ -1,0 +1,17 @@
+i {
+  &.twitter:before {
+    @include ion-icon('social-twitter-outline', 24px);
+  }
+
+  &.google:before {
+    @include ion-icon('social-googleplus-outline', 24px);
+  }
+
+  &.github:before {
+    @include ion-icon('social-github-outline', 24px);
+  }
+
+  &.facebook:before {
+    @include ion-icon('social-facebook-outline', 24px);
+  }
+}

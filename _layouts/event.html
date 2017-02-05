@@ -1,0 +1,22 @@
+---
+# vim:path=./../_includes
+---
+<!DOCTYPE html>
+<html><head>
+{% include meta.html %}
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="assets/vendor.js?v={{ site.time | date: "%Y%M%d%H%M%S" }}"></script>
+<script src="assets/script.js?v={{ site.time | date: "%Y%M%d%H%M%S" }}"></script>
+</head><body class='all'>
+
+{% include top-nav.html %}
+{% include hero-shot.html %}
+
+<section class='section'>
+  <div class='in formatted-content'>
+    {{content}}
+  </div>
+</section>
+
+</body>
+</html>

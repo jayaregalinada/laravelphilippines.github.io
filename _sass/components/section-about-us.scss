@@ -1,0 +1,58 @@
+.section-about-us {
+  $g: darken($green, 5%);
+
+  & {
+    background:
+      linear-gradient(320deg, rgba($g, 0.98), rgba($g, 0.90)),
+      url(/images/header/bg-about-us.jpg) center center / cover fixed,
+      #185;
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    color: #efe;
+
+    font-size: 0.9em;
+    line-height: 1.7;
+  }
+
+  p {
+    margin: 2em 0;
+  }
+
+  h3 {
+    font-family: open sans, sans-serif;
+    font-weight: 300;
+    color: white;
+    margin: 0;
+    font-size: 1.6em;
+  }
+
+  h3.primary {
+    font-weight: bold;
+    font-family: source sans pro, sans-serif;
+  }
+
+  h3 + p {
+    margin-top: 0;
+  }
+
+  a:visited,
+  a {
+    color: white;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  p.actions {
+    margin-top: -20px;
+  }
+
+  // Desktop
+  @media (min-width: 768px) {
+    padding-top: 90px;
+    padding-bottom: 90px;
+  }
+}

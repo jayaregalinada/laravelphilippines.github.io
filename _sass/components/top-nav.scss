@@ -1,0 +1,94 @@
+/* ---------------------------------------------------------------------------- */
+/* Top nav */
+
+.top-nav-bg {
+  & {
+    @include clearfix;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    height: 56px;
+    background: #fff;
+    z-index: 5;
+    opacity: 0.99;
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  }
+
+  & {
+    padding-top: 12px;
+    padding-left: 20px;
+
+    color: $lightslate;
+  }
+
+  .logo-box {
+    float: left;
+  }
+
+  .logo {
+    color: #111;
+    display: inline-block;
+    @include montserrat-700;
+    font-size: 1.3;
+  }
+
+  .hint {
+    margin: 0 40px;
+    color: $lightslate;
+  }
+
+  .right {
+    float: right;
+    padding-right: 130px;
+  }
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+
+/*
+ * Join button
+ */
+
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 12px 20px;
+
+  z-index: 15;
+
+  font-size: 0.9em;
+  overflow: hidden;
+}
+
+.top-nav {
+  /* Desktop */
+  @media (min-width: 760px) {
+    .right {
+      float: right;
+    }
+  }
+
+  /* Mobile */
+  @media (max-width: 768px) {
+    .top-nav {
+      position: static;
+      background: #222;
+      color: #aaa;
+      display: none; /* Eh, can't get it to look right so whatevs */
+    }
+  }
+}
