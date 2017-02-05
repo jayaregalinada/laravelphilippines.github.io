@@ -57,6 +57,17 @@ speakers:
   twitter: jaggygauran
   description: Web guy
 
+mailchimp:
+  group_id:
+
+##############################################################################
+---
+
+Let's talk about Laravel.
+{:.pull-quote-heading.align-left.bottom-space-1}
+
+Let's have an evening of updates from the Laravel and PHP community. Learn from experienced developers and discuss latest PHP and Laravel 5.4 and most importantly, have fun! 
+{:.sans-pull-quote.top-collapse-0}
 
 ## Speakers
 
