@@ -10,7 +10,7 @@ event:
 registration:
   date: 2017-02-13
   state: announce # announce | limbo | open | closed | over
-  signup: http://goo.gl/forms/ZNHNImCMrR
+  signup: http://walapa.com
 
 hero:
   color: "#203a4f"
@@ -26,7 +26,7 @@ venue:
   name: Zendesk Philippines
   icon: logos/zendesklogo.png
   url: https://www.facebook.com/pages/Zendesk-Philippines/716978241700279
-  map: https://goo.gl/maps/8eXLYbscco12
+  map: http://bit.ly/zdeskph
   address: |-
     30F, The W Building<br>
     Fifth Avenue<br>
@@ -69,7 +69,6 @@ Subscribe to the meetup group at [Meetup.com/Laravel-Philippines](https://www.me
 
 ### Thanks!
 
-Need directions or any help? Interested in speaking or sponsorship? Contact
-Ian at [idejesus@Zendesk.com](mailto:idejesus@zendesk.com) or Joe at [jose.Palala@live.com](http://bit.ly/2lbmME0).
+Need directions or any help? Interested in speaking or sponsorship? Contact Ian at [idejesus@zendesk.com](mailto:idejesus@zendesk.com) or Joe at [jose.palala@live.com](mailto:jose.palala@live.com).
 
-Laravel PH is made possible by everyone in the #laravelph  community. Join us on [Phackers #laravelph channel](http://phackers.io) 
+Laravel PH is made possible by everyone in the #laravelph  community. Join us on the [Phackers #laravelph channel](http://phackers.io) 
