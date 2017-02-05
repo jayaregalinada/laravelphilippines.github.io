@@ -10,12 +10,12 @@
     </div>
   {% endif %}
 
-  <div class='monogram'></div>
+  <div id='laravelph-brand'><img src='logos/laravelPHlogo.png'></div>
 
   <section class='section next-meetup wide'>
     <div class='in'>
-      <p class='subtext'>JavaScript Community Meetup</p>
-      <h1>Manila.js Fridays <small>{{ page.event.series }}</small></h1>
+      <p class='subtext'>Laravel Philippines</p>
+      <h1>Meetup <small>{{ page.event.series }}</small></h1>
 
       {% if page.event.location %}
         <h5 class='venue'>{{ page.event.location }}</h5>
@@ -33,8 +33,13 @@
           <strong class='date'>{{ page.event.date | date: "%b %e" }}</strong>
           <span class='time'>{{ page.event.time }}</span>
         </a>
+       {% elsif page.registration.state == "announce" && page.event.date == "0000-00-00" %}
+        <a class='date-time-item' href="{{ page.registration.signup }}">
+          <strong class='date'>TBA</strong>
+          <span class='time'><{{ page.event.time }}</span>
+        </a>
       {% else %}
-        <a class='date-time-item' href="#signup">
+        <a class='date-time-item' href="http://facebook.com/laravelph">
           <strong class='date'>{{ page.event.date | date: "%b %e" }}</strong>
           <span class='time'>{{ page.event.time }}</span>
         </a>
