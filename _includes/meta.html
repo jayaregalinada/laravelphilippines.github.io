@@ -1,15 +1,9 @@
 <meta charset='utf-8'>
 <!--
 
- _______ _______ __   _ _____        _______   _____ _______
- |  |  | |_____| | \  |   |   |      |_____|     |   |______
- |  |  | |     | |  \_| __|__ |_____ |     | . __|   ______|
-
-   https://github.com/manilajs/manilajs.com
-   https://www.facebook.com/groups/javascriptdevelopersph
 
    Follow us on Twitter!
-   http://twitter.com/manila_js
+   http://twitter.com/laravelphils
                                                             
 -->
 {% if page.title %}
@@ -18,12 +12,12 @@
 <meta content='{{ page.title }}' property='og:site_name'>
 <meta content='{{ page.title }}' name='twitter:title'>
 {% else if page.event %}
-<title>Manila.js JavaScript meetup {{ page.event.series }}</title>
-<meta content='Manila.js JavaScript meetup {{ page.event.series }}' property='og:title'>
-<meta content='Manila.js JavaScript meetup {{ page.event.series }}' property='og:site_name'>
-<meta content='Manila.js JavaScript meetup {{ page.event.series }}' name='twitter:title'>
+<title>Laravel PHP meetup {{ page.event.series }}</title>
+<meta content='Laravel.PH meetup 2017-02' property='og:title'>
+<meta content='Laravel.PH meetup {{ page.event.series }}' property='og:site_name'>
+<meta content='Laravel.PH meetup {{ page.event.series }}' name='twitter:title'>
 {% else %}
-<title>Manila.js - JavaScript community in Manila, Philippines</title>
+<title>Laravel.PH meetup group</title>
 {% endif %}
 
 {% assign base = '' %}
@@ -51,21 +45,17 @@
 
 {% if page.description %}
 <meta content='article' property='og:type'>
-<meta content='{{ page.description }}' name='description'>
-<meta content='{{ page.description }}' property='og:description'>
-<meta content='http://www.manilajs.com/images/base/share.png' property='og:image'>
-<meta content='http://www.manilajs.com/images/base/share.png' name='twitter:image'>
-<meta property='og:image:width' content='940'>
-<meta property='og:image:height' content='492'>
+<meta content='Laravel Philipines meetup group' name='description'>
+<meta content='Laravel Philipines meetup group' property='og:description'>
 {% endif %}
 
-<meta content='javascript, manila, meetup, manila.js' name='keywords'>
+<meta content='laravel, php, laravel.ph, philippines' name='keywords'>
 
 {% if page.url == '/index.html' %}
 <meta content='website' property='og:type'>
-<meta content='http://www.manilajs.com/' property='og:url'>
-<meta content='http://www.manilajs.com/' name='twitter:url'>
-<link href='http://www.manilajs.com/' rel='canonical'>
+<meta content='http://laravelphilippines.com/' property='og:url'>
+<meta content='http://laravelphilippines.com/' name='twitter:url'>
+<link href='http://laravelphilippines.com/' rel='canonical'>
 {% endif %}
 
 {%comment%}<!-- google analytics -->{%endcomment%}
