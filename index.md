@@ -40,27 +40,33 @@ speakers:
   github: jaggy
   twitter: jaggygauran
   description: |- 
-    Jaggy will be talking about Facades vs Dependency Injection and possibly Domain Driven Design<br>
+    Jaggy, together with the Zendesk team will discuss about Facades vs Dependency Injection, and Domain Driven Design. 
 
 ---
 
 Let's talk about Laravel.
 {:.pull-quote-heading.align-left.bottom-space-1}
 
-Let's have an evening of updates from the Laravel and PHP community. Learn from experienced developers and discuss latest PHP and Laravel 5.4 and most importantly, have fun! 
+Join us in our first meetup of the year!
+{:.sans-pull-quote.top-collapse-0}
+
+Meet experienced developers and learn about current trends in Laravel and PHP!
 {:.sans-pull-quote.top-collapse-0}
 
 ## Speakers
 
 {% include speaker-list.html %}
 
-Laravel Philippines meetups are held towards the end of very  month.  Everybody's welcome! Expect to hear about using Laravel and PHP while having fun. 
+Laravel.PH meetups are usually held twice every quarter. Please subscribe to the group at [Meetup.com/Laravel-Philippines](https://www.meetup.com/Laravel-Philippines/) to know about upcoming events. 
+{: .text-justify}
 
-Subscribe to the meetup group at [Meetup.com/Laravel-Philippines](https://www.meetup.com/Laravel-Philippines/). This event is free. Bring your friends!
+This event is free. Come join us and bring your friends, whether they are already experienced or just beginning web developers who are interested in Laravel.
+{: .text-justify}
 
-#### Our venue is
+#### Our venue is at
 
 {% if page.venue %}{% include location-box.html venue=page.venue %}{% else %}{% include location-box-tbd.html %}{% endif %}
+
 {% if page.venue %} Special thanks to our generous venue sponsor, [{{ page.venue.name }}]({{ page.venue.url }}), for making our meetup possible.  {% endif %} 
 
 #### After Party
@@ -69,6 +75,8 @@ Subscribe to the meetup group at [Meetup.com/Laravel-Philippines](https://www.me
 
 ### Thanks!
 
-Need directions or any help? Interested in speaking or sponsorship? Contact Ian at [idejesus@zendesk.com](mailto:idejesus@zendesk.com) or Joe at [jose.palala@live.com](mailto:jose.palala@live.com).
+Need directions or any help? Would you like to share your knowledge or build our Laravel community by sponsoring our event? Please contact Ian at [idejesus@zendesk.com](mailto:idejesus@zendesk.com) or Joe at [jose.palala@live.com](mailto:jose.palala@live.com) for any inquiries. We appreciate any kind of help.
+{: .text-justify}
 
-Laravel PH is made possible by everyone in the #laravelph  community. Join us on the [Phackers #laravelph channel](http://phackers.io) 
+Laravel PH is made possible by everyone in the #laravelph community. Join our slack community at [#laravelph channel](http://phackers.io) or our [facebook group](https://www.facebook.com/groups/laravelph/).
+{: .text-justify}
