@@ -40,7 +40,7 @@ speakers:
   github: jaggy
   twitter: jaggygauran
   description: |- 
-    Jaggy, together with the Zendesk team will discuss about Facades vs Dependency Injection, and Domain Driven Design. 
+    Jaggy, together with the Zendesk team, will discuss about Facades vs Dependency Injection, and Domain Driven Design. 
 
 ---
 
