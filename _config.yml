@@ -14,14 +14,14 @@ exclude:
   - vendor
 
 contact:
-  email: hi@ricostacruz.com
+  email: jose.palala@live.com
 
 permalink: "/p/:title.html"
 
 # Google analytics
 analytics:
-  hostname: manilajs.com
-  id: UA-38979948-1
+  hostname: laravelphilippines.com
+  id: 
 
 defaults:
   - scope:
