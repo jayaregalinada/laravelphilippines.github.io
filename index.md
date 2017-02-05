@@ -3,18 +3,18 @@ layout: event
 
 event:
   series: "2017-02"
-  date: 2017-02-01
-  time: 7PM
+  date: 0000-00-00
+  time: Around 7PM
   location: Zendesk Office, BGC
 
 registration:
-  date: 2017-02-01
-  state: announce # announce | open | closed | over
+  date: 2017-02-13
+  state: announce # announce | limbo | open | closed | over
   signup: http://goo.gl/forms/ZNHNImCMrR
 
 hero:
   color: "#203a4f"
-  opacity: 0.23
+  opacity: 0.32
   image: images/2017-02/zendesk-office-official.jpg
   # :: current image is under Creative Commons Zero however,
   #    so no attribution is required. Might as well though, yeah?
@@ -23,37 +23,25 @@ hero:
 
 # -- Comment out the venue if it's TBD --
 venue:
-  name: Zendesk Offices
-  icon: images/2017-02/z-logo.png
+  name: Zendesk Philippines
+  icon: logos/zendesklogo.png
   url: https://www.facebook.com/pages/Zendesk-Philippines/716978241700279
   map: https://goo.gl/maps/8eXLYbscco12
-  address: |
-    30F, The W Building 
+  address: |-
+    30F, The W Building<br>
     Fifth Avenue<br>
     BGC Taguig 
 
-# -- Comment out the drinkup if it's not available --
-drinkup: 
-   name: Basta sa BGC Area
-   map: https://goo.gl/maps/8eXLYbscco12
-
-## After Party:
-
-{% include after-party.html %} 
-
 speakers:
 - name: Jaggy Gauran
-  avatar: "images/2017-02/u-jpas.jpg"
+  avatar: "images/2017-02/u-jaggy.jpg"
   title: Zendesk
   url: https://jag.gy
   github: jaggy
   twitter: jaggygauran
-  description: Web guy
+  description: |- 
+    Jaggy will be talking about Facades vs Dependency Injection and possibly Domain Driven Design<br>
 
-mailchimp:
-  group_id:
-
-##############################################################################
 ---
 
 Let's talk about Laravel.
@@ -72,19 +60,16 @@ Subscribe to the meetup group at [Meetup.com/Laravel-Philippines](https://www.me
 
 #### Our venue is
 
-{% if page.venue %}
-{% include location-box.html venue=page.venue %}{% else %}
-{% include location-box-tbd.html %}{% endif %}
+{% if page.venue %}{% include location-box.html venue=page.venue %}{% else %}{% include location-box-tbd.html %}{% endif %}
+{% if page.venue %} Special thanks to our generous venue sponsor, [{{ page.venue.name }}]({{ page.venue.url }}), for making our meetup possible.  {% endif %} 
 
-{% if page.venue %}
-Special thanks to our generous venue sponsor, [{{ page.venue.name }}]({{ page.venue.url }}), for making our meetup possible.
-{% endif %}
+#### After Party
 
-* * * *
+{% include drinkup.html %}
 
 ### Thanks!
 
 Need directions or any help? Interested in speaking or sponsorship? Contact
-Ian at [idejesus@Zendesk.com](mailto:hi@ricostacruz.com) or Joe at [joe@Palala.me](mailto:joe@palala.me).
+Ian at [idejesus@Zendesk.com](mailto:idejesus@zendesk.com) or Joe at [jose.Palala@live.com](http://bit.ly/2lbmME0).
 
 Laravel PH is made possible by everyone in the #laravelph  community. Join us on [Phackers #laravelph channel](http://phackers.io) 
