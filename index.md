@@ -1,37 +1,30 @@
 ---
 layout: event
 
-images:
-  - http://www.manilajs.com/images/2017-02/share/share-a.png
-  - http://www.manilajs.com/images/2017-02/share/share-b.png
-  - http://www.manilajs.com/images/2017-02/share/share-c.png
-  - http://www.manilajs.com/images/2017-02/share/share-d.png
-  - http://www.manilajs.com/images/2017-02/share/see-you-later.png
-
 event:
   series: "2017-02"
-  date: 
+  date: 2017-02-01
   time: 7PM
   location: Zendesk Office, BGC
 
 registration:
-  date: 
+  date: 2017-02-01
   state: announce # announce | open | closed | over
   signup: http://goo.gl/forms/ZNHNImCMrR
 
 hero:
   color: "#203a4f"
-  opacity: 0.20
-  image: images/2017-02/bg.jpg
+  opacity: 0.23
+  image: images/2017-02/zendesk-office-official.jpg
   # :: current image is under Creative Commons Zero however,
   #    so no attribution is required. Might as well though, yeah?
-  attribution_source: "SpaceX"
-  attribution_url: "http://www.spacex.com/sites/spacex/files/styles/multimedia_gallery_header_block_image_styles/public/f9-6_ocean_shot.jpg?itok=OKRND0Nr"
+  attribution_source: "Zendesk"
+  attribution_url: "https://d16cvnquvjw7pr.cloudfront.net/www/img/p-brand/office/hi-res/EG0A0722.jpg"
 
 # -- Comment out the venue if it's TBD --
 venue:
   name: Zendesk Offices
-  icon: images/2017-02/z-logo.svg
+  icon: images/2017-02/z-logo.png
   url: https://www.facebook.com/pages/Zendesk-Philippines/716978241700279
   map: https://goo.gl/maps/8eXLYbscco12
   address: |
