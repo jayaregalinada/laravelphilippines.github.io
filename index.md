@@ -80,3 +80,6 @@ Need directions or any help? Would you like to share your knowledge or build our
 
 Laravel PH is made possible by everyone in the #laravelph community. Join our slack community at [#laravelph channel](http://phackers.io) or our [facebook group](https://www.facebook.com/groups/laravelph/).
 {: .text-justify}
+
+Need a certificate to show your prof? You may print your own and we'll gladly sign it. Either Ian or Joe will sign it on the spot.
+{: .text-justify}
