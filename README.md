@@ -1,2 +1,9 @@
 # laravelphilippines.github.io
-laravel philippines static based site
+
+http://laravelphilippines.github.io
+
+Jekyll theme from [manilajs.com](https://github.com/manilajs/manilajs.com).
+
+# CONTRIBUTORS
+
+[@jpalala][http://jpalala.io]
