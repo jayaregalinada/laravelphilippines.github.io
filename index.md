@@ -4,7 +4,7 @@ layout: event
 event:
   series: "2017-02"
   date: 2017-02-18
-  time: 9:30
+  time: 930AM
   location: Zendesk Office, BGC
 
 registration:
