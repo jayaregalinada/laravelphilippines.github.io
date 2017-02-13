@@ -3,14 +3,14 @@ layout: event
 
 event:
   series: "2017-02"
-  date: 0000-00-00
-  time: Around 7PM
+  date: 2017-02-18
+  time: 930AM
   location: Zendesk Office, BGC
 
 registration:
-  date: 2017-02-13
-  state: announce # announce | limbo | open | closed | over
-  signup: http://walapa.com
+  date: 2017-02-07
+  state: open # announce | limbo | open | closed | over
+  signup: https://www.meetup.com/Laravel-Philippines/quick_join/?eventId=237516402&joinFrom=event&response=3
 
 hero:
   color: "#203a4f"
