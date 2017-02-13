@@ -3,7 +3,7 @@ layout: event
 
 event:
   series: "2017-02"
-  date: 2017-02-18
+  date: 2017-02-25
   time: 930AM
   location: Zendesk Office, BGC
 
@@ -69,7 +69,7 @@ This event is free. Come join us and bring your friends, whether they are alread
 
 {% if page.venue %} Special thanks to our generous venue sponsor, [{{ page.venue.name }}]({{ page.venue.url }}), for making our meetup possible.  {% endif %} 
 
-#### After Party
+#### after Party
 
 {% include nodrinkup.html %}
 
