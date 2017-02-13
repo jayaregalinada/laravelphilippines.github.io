@@ -71,7 +71,7 @@ This event is free. Come join us and bring your friends, whether they are alread
 
 #### After Party
 
-{% include drinkup.html %}
+{% include nodrinkup.html %}
 
 ### Thanks!
 
